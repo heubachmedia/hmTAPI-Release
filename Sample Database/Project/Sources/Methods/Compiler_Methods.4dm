@@ -1,0 +1,12 @@
+//%attributes = {}
+C_LONGINT:C283(TAPI_CallProcess; $1; $3)
+C_TEXT:C284(TAPI_CallProcess; $2)
+C_LONGINT:C283(TAPI_Error; $1)
+C_TEXT:C284(TAPI_Error; $2)
+C_POINTER:C301(ARR_Resize; $1)
+C_LONGINT:C283(ARR_Resize; $2)
+C_POINTER:C301(TAPI_GetDevices; $1)
+C_TEXT:C284(TAPI_TranslateLinestate; $0)
+C_LONGINT:C283(TAPI_TranslateLinestate; $1)
+C_LONGINT:C283(TAPI_execute; $1; $3)
+C_TEXT:C284(TAPI_execute; $2)

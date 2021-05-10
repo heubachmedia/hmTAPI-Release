@@ -1,0 +1,265 @@
+{
+	"destination": "detailScreen",
+	"windowMinWidth": 500,
+	"windowMinHeight": 400,
+	"width": 500,
+	"height": 400,
+	"markerBody": 326,
+	"markerBreak": 326,
+	"markerFooter": 336,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onActivate",
+		"onDeactivate",
+		"onDoubleClick",
+		"onLosingFocus",
+		"onGettingFocus",
+		"onDrop",
+		"onBeforeKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onCloseBox",
+		"onUnload",
+		"onTimer",
+		"onAfterKeystroke",
+		"onResize",
+		"onSelectionChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "DIN A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"bAbbrechen": {
+					"type": "button",
+					"top": 16,
+					"left": 315,
+					"width": 78,
+					"height": 20,
+					"sizingX": "move",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Abbrechen"
+					},
+					"action": "cancel",
+					"shortcutKey": "[Esc]",
+					"text": "Cancel",
+					"events": [
+						"onClick"
+					]
+				},
+				"bOK": {
+					"type": "button",
+					"top": 16,
+					"left": 406,
+					"width": 78,
+					"height": 20,
+					"sizingX": "move",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/OK"
+					},
+					"action": "accept",
+					"text": "OK",
+					"events": [
+						"onClick"
+					]
+				},
+				"tt_devices": {
+					"type": "dropdown",
+					"top": 85,
+					"left": 87,
+					"width": 369,
+					"height": 20,
+					"dataSource": "tt_devices",
+					"class": "Default",
+					"method": "ObjectMethods/tt_devices.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"Text1": {
+					"type": "text",
+					"top": 87,
+					"left": 14,
+					"width": 68,
+					"height": 15,
+					"text": "Devices:"
+				},
+				"vl_open_connection": {
+					"type": "button",
+					"top": 113,
+					"left": 14,
+					"width": 149,
+					"height": 20,
+					"text": "Open Connection",
+					"class": "Default",
+					"method": "ObjectMethods/vl_open_connection.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"vl_close_connection": {
+					"type": "button",
+					"top": 113,
+					"left": 183,
+					"width": 149,
+					"height": 20,
+					"text": "Close Connection",
+					"class": "Default",
+					"method": "ObjectMethods/vl_close_connection.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"vl_call": {
+					"type": "button",
+					"top": 169,
+					"left": 308,
+					"width": 148,
+					"height": 46,
+					"sizingX": "move",
+					"text": "Call",
+					"class": "Default",
+					"method": "ObjectMethods/vl_call.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"vt_number": {
+					"type": "input",
+					"top": 185,
+					"left": 103,
+					"width": 191,
+					"height": 16,
+					"sizingX": "grow",
+					"dataSource": "vt_number",
+					"class": "Default",
+					"contextMenu": "none",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text2": {
+					"type": "text",
+					"top": 184,
+					"left": 14,
+					"width": 82,
+					"height": 16,
+					"class": "Default",
+					"text": "Number:"
+				},
+				"vl_drop": {
+					"type": "button",
+					"top": 227,
+					"left": 308,
+					"width": 148,
+					"height": 46,
+					"sizingX": "move",
+					"text": "Drop",
+					"class": "Default",
+					"method": "ObjectMethods/vl_drop.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Listbox1": {
+					"type": "listbox",
+					"top": 218,
+					"left": 15,
+					"width": 279,
+					"height": 169,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"dataSource": "Listbox1",
+					"movableRows": false,
+					"rowHeight": "20px",
+					"rowHeightAutoMin": "20px",
+					"rowHeightAutoMax": "20px",
+					"showHeaders": false,
+					"staticColumnCount": 1,
+					"selectionMode": "single",
+					"scrollbarHorizontal": "hidden",
+					"horizontalLineStroke": "#AAAAAA",
+					"verticalLineStroke": "#AAAAAA",
+					"stroke": "#000000",
+					"fill": "#FFFFFF",
+					"fontFamily": "Lucida Grande",
+					"fontSize": 13,
+					"columns": [
+						{
+							"name": "tt_protokoll",
+							"dataSource": "tt_protokoll",
+							"width": 264,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"resizable": false,
+							"enterable": false,
+							"stroke": "#000000",
+							"fill": "#DDDDDD",
+							"fontFamily": "Lucida Grande",
+							"fontSize": 13,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Kopf1",
+								"text": "Kopf1",
+								"stroke": "#000000",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 13
+							},
+							"footer": {
+								"name": "Fußteil1",
+								"stroke": "#000000",
+								"fill": "#FFFFFF",
+								"fontFamily": "Lucida Grande",
+								"fontSize": 13
+							}
+						}
+					]
+				},
+				"vl_accept": {
+					"type": "button",
+					"top": 287,
+					"left": 308,
+					"width": 148,
+					"height": 46,
+					"sizingX": "move",
+					"text": "Accept",
+					"class": "Default",
+					"method": "ObjectMethods/vl_accept.4dm",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "Ebene 1",
+		"defaultView": "Ebene 1",
+		"views": {
+			"Ebene 1": {},
+			"Ebene 2": {},
+			"Ebene 3": {},
+			"Ebene 4": {},
+			"Ebene 5": {},
+			"Ebene 6": {},
+			"Ebene 7": {},
+			"Ebene 8": {},
+			"Ebene 9": {}
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"Standard Projekt-Methode": {},
+	"Standard-Formular": {
+		"forms": [
+			"Input"
+		]
+	},
+	"Standard-Ordner": {
+		"groups": [
+			"Standard Projekt-Methode",
+			"Standard-Formular",
+			"Standard-Tabelle"
+		]
+	},
+	"Standard-Tabelle": {
+		"tables": [
+			"Settings"
+		]
+	},
+	"trash": {}
+}

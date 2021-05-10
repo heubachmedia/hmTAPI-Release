@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="Sample Database" uuid="AF538AD0BFDCD946A052E149FEBE8F6F" collation_locale="de">
+	<schema name="DEFAULT_SCHEMA"/>
+	<table name="Settings" uuid="F3C1DEA4455F1A49B475973F43FCBC7F" id="2">
+		<field name="device" uuid="68FD8EB7DF717F48BA2B2D6005023AA9" type="4" never_null="true" id="1"/>
+		<field name="RefListeneintrag" uuid="90E48770871CBB4BA14F1FB85AA65C4C" type="10" limiting_length="80" never_null="true" id="2"/>
+		<field name="ID" uuid="494B4E576C2048398527092D15520780" type="4" unique="true" autosequence="true" never_null="true" id="3"/>
+		<primary_key field_name="ID" field_uuid="494B4E576C2048398527092D15520780"/>
+		<table_extra input_form="Input" output_form="Output">
+			<editor_table_info displayable_fields_count="7">
+				<color red="0" green="0" blue="0" alpha="0"/>
+				<coordinates left="52.54296875" top="0.74609375" width="154" height="198"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<index kind="regular" unique_keys="true" uuid="1341B7C8702D4FA799C1EDAA2265AA3F" type="1">
+		<field_ref uuid="494B4E576C2048398527092D15520780" name="ID">
+			<table_ref uuid="F3C1DEA4455F1A49B475973F43FCBC7F" name="Settings"/>
+		</field_ref>
+	</index>
+	<base_extra data_file_path=":test.4DD" package_name="hmTAPI 3" structure_file_name="test" __stringCompHash="icu:68.1.0" __keywordBuildingHash="icu:68.1.0"/>
+</base>
