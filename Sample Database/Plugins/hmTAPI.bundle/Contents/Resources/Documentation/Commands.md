@@ -10,9 +10,8 @@
 - [hmTAPI_Open (deviceID) → Error code](hmTAPI_Open.md)
 - [hmTAPI_Open Ex (deviceID ; Privileges ; MediaModes) → Error code](hmTAPI_OpenEx.md)
 - [hmTAPI_Close (deviceID) → Error code](hmTAPI_Close.md)
-- [hmTAPI_GetDevices → Devices](hmTAPI_GetDevices.md)<span style="color:red;font-family:monospace">&nbsp;&nbsp;New in v19</span>
-- [hmTAPI_CountDevices → Count](hmTAPI_CountDevices.md)<span style="color:gray;font-family:monospace">&nbsp;&nbsp;Deprecated in v19</span>
-- [hmTAPI_GetDeviceName (deviceID ; deviceName) → Error code](hmTAPI_GetDeviceName.md)<span style="color:gray;font-family:monospace">&nbsp;&nbsp;Deprecated in v19</span>
+- [hmTAPI_CountDevices → Count](hmTAPI_CountDevices.md)
+- [hmTAPI_GetDeviceName (deviceID ; deviceName) → Error code](hmTAPI_GetDeviceName.md)
 - [hmTAPI_GET ALL OPEN DEVICES (Array) → Error code](hmTAPI_GetAllOpenDevices.md)
 - [hmTAPI_Count Device Addresses (deviceID) → Count](hmTAPI_CountDeviceAddresses.md)
 - [hmTAPI_Get Address Info (deviceID ; AddressID ; Selector ; Info) → Error code](hmTAPI_GetAddressInfo.md)

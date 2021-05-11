@@ -60,7 +60,8 @@
                 },
                 {
                 "theme":"hmTAPI",
-                "syntax":"hmTAPI_Register(&T):L"
+                "syntax":"hmTAPI_Register(&T):L",
+				"threadSafe": true
                 },
                 {
                 "theme":"hmTAPI",
@@ -117,6 +118,10 @@
 				{
 				"theme":"hmTAPI",
 				"syntax":"hmTAPI_Unhold(&L):L"
+				},
+				{
+				"theme":"hmTAPI",
+				"syntax":"hmTAPI_GetDevices:C"
 				}
                 ]
 

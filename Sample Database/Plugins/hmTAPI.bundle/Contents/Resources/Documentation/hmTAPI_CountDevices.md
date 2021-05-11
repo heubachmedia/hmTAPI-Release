@@ -1,8 +1,6 @@
 ## hmTAPI_CountDevices → Count
 ###### Introduced in v1.0, Preemptive: no
 
-<span style="color:gray;font-family:monospace">This command is deprecated in v19. It will be removed in future versions. Please use [hmTAPI_GetDevices](hmTAPI_GetDevices.md) instead.</span>
-
 |Parameter|Type|In/Out|Description
 |---|---|:---:|---
 |Count|Longint|←|Count devices
