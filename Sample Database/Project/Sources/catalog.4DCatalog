@@ -19,5 +19,5 @@
 			<table_ref uuid="F3C1DEA4455F1A49B475973F43FCBC7F" name="Settings"/>
 		</field_ref>
 	</index>
-	<base_extra data_file_path=":test.4DD" package_name="hmTAPI 3" structure_file_name="test" __stringCompHash="icu:68.1.0" __keywordBuildingHash="icu:68.1.0"/>
+	<base_extra data_file_path=":test.4DD" package_name="hmTAPI 3" structure_file_name="test" __stringCompHash="icu:72.1.0" __keywordBuildingHash="icu:72.1.0"/>
 </base>
